@@ -38,7 +38,7 @@
    });
 
  // the actual function
-
+ app.enable('trust proxy');
  app.get("/api/whoami", function (req, res) {
    res.setHeader('Content-Type', 'application/json');
 
